@@ -1,0 +1,89 @@
+Xsession: X session started for kali at Tue Jun 18 12:35:41 PDT 2024
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/kali/.Xauthority
+localuser:kali being added to access control list
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/usr/bin/x-session-manager: X server already running on display :0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 12:35:41.369: SSH authentication agent is already running
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:955): xfwm4-WARNING **: 12:35:41.587: Unsupported GL renderer (virgl (ANGLE (Apple, Apple M3, OpenGL 4.1 Metal - 88))).
+
+** (wrapper-2.0:1007): WARNING **: 12:35:42.055: No outputs have backlight property
+Xfce power manager is not running
+Xfce Power Manager: Another power manager is already running
+cp: option '--update' doesn't allow an argument
+Try 'cp --help' for more information.
+Failure: No such entity
+Another notification daemon is running, exiting
+
+(xfce4-power-manager:1049): xfce4-power-manager-WARNING **: 12:35:42.325: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1049): WARNING **: 12:35:42.341: No outputs have backlight property
+
+(xfce4-power-manager:1049): xfce4-power-manager-WARNING **: 12:35:42.346: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+(thunar-volman:1133): GLib-CRITICAL **: 12:35:42.605: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1133): GLib-CRITICAL **: 12:35:42.605: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1133): GLib-CRITICAL **: 12:35:42.605: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1286): GLib-CRITICAL **: 12:35:42.634: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1286): GLib-CRITICAL **: 12:35:42.634: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1286): GLib-CRITICAL **: 12:35:42.634: g_strstr_len: assertion 'haystack != NULL' failed
+thunar-volman: Unsupported input device type "/dev/input/event4".
+
+(thunar-volman:1296): GLib-CRITICAL **: 12:35:42.660: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1296): GLib-CRITICAL **: 12:35:42.660: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1296): GLib-CRITICAL **: 12:35:42.660: g_strstr_len: assertion 'haystack != NULL' failed
+blueman-applet 12.35.42 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 12.35.42 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+
+(thunar-volman:1308): GLib-CRITICAL **: 12:35:42.684: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1308): GLib-CRITICAL **: 12:35:42.684: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1308): GLib-CRITICAL **: 12:35:42.684: g_strstr_len: assertion 'haystack != NULL' failed
+blueman-applet 12.35.42 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:09:48.076: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:09:48.077: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:09:48.077: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:09:48.077: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:12:10.272: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:12:10.272: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:12:10.272: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 13:12:10.272: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:05.615: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:05.616: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:05.616: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:05.616: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:28.780: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:28.780: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:28.780: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:955): xfwm4-CRITICAL **: 14:20:28.781: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed

@@ -1,0 +1,8 @@
+[default-routes]
+alsa_card.pci-0000_00_03.0:input:analog-input-linein:channelMap=FL;FR;
+alsa_card.pci-0000_00_03.0:input:analog-input-linein:channelVolumes=0.0;0.0;
+alsa_card.pci-0000_00_03.0:input:analog-input-linein:latencyOffsetNsec=0
+alsa_card.pci-0000_00_03.0:output:analog-output-lineout:channelMap=FL;FR;
+alsa_card.pci-0000_00_03.0:output:analog-output-lineout:channelVolumes=0.0;0.0;
+alsa_card.pci-0000_00_03.0:output:analog-output-lineout:latencyOffsetNsec=0
+alsa_card.pci-0000_00_03.0:profile:output:analog-stereo+input:analog-stereo=analog-output-lineout;analog-input-linein;

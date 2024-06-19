@@ -1,0 +1,102 @@
+Xsession: X session started for kali at Wed Jun 19 01:48:20 PDT 2024
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/kali/.Xauthority
+localuser:kali being added to access control list
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/usr/bin/x-session-manager: X server already running on display :0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 01:48:20.435: SSH authentication agent is already running
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:976): xfwm4-WARNING **: 01:48:20.571: Unsupported GL renderer (virgl (ANGLE (Apple, Apple M3, OpenGL 4.1 Metal - 88))).
+
+** (wrapper-2.0:1028): WARNING **: 01:48:21.062: No outputs have backlight property
+Xfce power manager is not running
+
+(xfce4-power-manager:1058): xfce4-power-manager-WARNING **: 01:48:21.240: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1058): WARNING **: 01:48:21.246: No outputs have backlight property
+
+(xfce4-power-manager:1058): xfce4-power-manager-WARNING **: 01:48:21.249: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+Xfce Power Manager: Another power manager is already running
+cp: option '--update' doesn't allow an argument
+Try 'cp --help' for more information.
+Failure: No such entity
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+
+(thunar-volman:1216): GLib-CRITICAL **: 01:48:21.712: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1216): GLib-CRITICAL **: 01:48:21.712: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1216): GLib-CRITICAL **: 01:48:21.712: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1301): GLib-CRITICAL **: 01:48:21.851: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1301): GLib-CRITICAL **: 01:48:21.851: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1301): GLib-CRITICAL **: 01:48:21.851: g_strstr_len: assertion 'haystack != NULL' failed
+thunar-volman: Unsupported input device type "/dev/input/event4".
+
+(thunar-volman:1315): GLib-CRITICAL **: 01:48:21.927: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1315): GLib-CRITICAL **: 01:48:21.928: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1315): GLib-CRITICAL **: 01:48:21.928: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1326): GLib-CRITICAL **: 01:48:22.015: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1326): GLib-CRITICAL **: 01:48:22.015: g_strstr_len: assertion 'haystack != NULL' failed
+
+(thunar-volman:1326): GLib-CRITICAL **: 01:48:22.015: g_strstr_len: assertion 'haystack != NULL' failed
+blueman-applet 01.48.22 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 01.48.22 ERROR    BasePlugin:83 _load     : g-file-error-quark: Permission denied (2)
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/blueman/plugins/BasePlugin.py", line 77, in _load
+    self.on_load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/applet/KillSwitch.py", line 61, in on_load
+    channel = GLib.IOChannel.new_file("/dev/rfkill", "r")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-file-error-quark: Permission denied (2)
+blueman-applet 01.48.22 ERROR    PluginManager:164 __load_plugin: Failed to load KillSwitch
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/blueman/main/PluginManager.py", line 162, in __load_plugin
+    inst._load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/AppletPlugin.py", line 51, in _load
+    super()._load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/BasePlugin.py", line 77, in _load
+    self.on_load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/applet/KillSwitch.py", line 61, in on_load
+    channel = GLib.IOChannel.new_file("/dev/rfkill", "r")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-file-error-quark: Permission denied (2)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 53, in __init__
+    self.Plugins.load_plugin()
+  File "/usr/lib/python3/dist-packages/blueman/main/PluginManager.py", line 124, in load_plugin
+    self.__load_plugin(cls)
+  File "/usr/lib/python3/dist-packages/blueman/main/PluginManager.py", line 162, in __load_plugin
+    inst._load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/AppletPlugin.py", line 51, in _load
+    super()._load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/BasePlugin.py", line 77, in _load
+    self.on_load()
+  File "/usr/lib/python3/dist-packages/blueman/plugins/applet/KillSwitch.py", line 61, in on_load
+    channel = GLib.IOChannel.new_file("/dev/rfkill", "r")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-file-error-quark: Permission denied (2)
+
+(xfwm4:976): xfwm4-CRITICAL **: 02:18:56.946: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:976): xfwm4-CRITICAL **: 02:18:56.946: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:976): xfwm4-CRITICAL **: 02:18:56.946: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
+
+(xfwm4:976): xfwm4-CRITICAL **: 02:18:56.946: clientMoveToMonitorByDirectionTarget: assertion 'candidate_monitors != NULL' failed
