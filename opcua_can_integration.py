@@ -53,4 +53,7 @@ try:
 finally:
     server.stop()
     print("OPC UA Server stopped")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 55dc139c2579bd24f038921e0491afa7d4c25dd1
