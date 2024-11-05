@@ -1,6 +1,6 @@
 import time
 import can
-from opcua import Client
+from opcua import Client, ua
 
 class SubHandler:
     """Subscription handler that will be called whenever data changes."""
@@ -21,19 +21,19 @@ try:
     sensor = root.get_child(["0:Objects", "2:Sensor"])
 
     # Get references to variables (RPM, Speed, Fuel Level)
-    rpm_var = sensor.get_child("2:RPM")
-    speed_var = sensor.get_child("2:Speed")
-    fuel_var = sensor.get_child("2:FuelLevel")
+    rpm_var = sensor.get_child(["2:RPM"])
+    speed_var = sensor.get_child(["2:Speed"])
+    fuel_var = sensor.get_child(["2:FuelLevel"])
 
     # Create a subscription to receive real-time updates
     handler = SubHandler()
-    sub = opcua_client.create_subscription(100, handler)  # Adjust the publishing interval as needed
+    sub = opcua_client.create_subscription(100, handler)  # 100ms publishing interval
     sub.subscribe_data_change(rpm_var)
     sub.subscribe_data_change(speed_var)
     sub.subscribe_data_change(fuel_var)
 
     while True:
-        # Receive CAN data
+        # Receive CAN data (wait for 10 seconds max for a message)
         can_message = can_bus.recv(10.0)
         if can_message:
             print(f"CAN Bus Message: {can_message}")
