@@ -2,19 +2,6 @@ OPC UA & CAN Bus Latency Measurement
 
 This project provides a benchmark for measuring latency in an OPC UA server-client architecture combined with CAN bus communication. It includes scripts for setting up an OPC UA server and client, sending data over CAN bus, and analyzing latencies. This documentation provides a complete overview of the project, its components, and instructions on how to run and analyze latency in your setup.
 
-Table of Contents
-
-Project Overview
-System Requirements
-Installation and Setup
-How to Run the Benchmark
-Explanation of Each Script
-Latency Analysis
-Results Interpretation
-Project Design Choices
-Troubleshooting
-Project Overview
-
 This project simulates an OPC UA server that collects data and communicates via a CAN bus with a client, with a primary goal of measuring the latency of data transmission and update times.
 
 The main components of the project include:
