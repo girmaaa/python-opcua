@@ -41,6 +41,7 @@ python opcua_can_client_benchmark.py
 3.Run Latency Analysis: Once the server and client have been running long enough to gather data, analyze the latency:
 code
 python latency_analysis.py
+
 Explanation of Each Script
 
 1. opcua_can_server_benchmark.py
